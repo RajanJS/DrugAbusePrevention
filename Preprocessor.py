@@ -6,7 +6,7 @@ import pandas as pd
 
 def main():
     df = pd.read_json("./data/nys_tweets_filtered_2017_0.json", lines=True)
-    pprint(df.lines)
+    pprint(df.T)
     pass
 
 
